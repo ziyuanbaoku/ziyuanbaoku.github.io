@@ -5,7 +5,6 @@ var list_ul = $('#navbar-collapse ul');
 var list_li =  $('#navbar-collapse li');
 
 
-
 /*======================================【总课程列表】==================================*/
 
  var course_list = $('#course_list');
@@ -55,7 +54,15 @@ $.getJSON('data/newke.json',function(res,status,xhr){
 	    			         </div>                  
 	    			         <div class="caption">
 	    			           <h3 class="title">${newkeData[i].title}</h3>
-	    			           <p><a href="#" class="btn btn-primary" role="button">购买课程</a> <a href="#" class="btn btn-default" role="button">课程详情</a></p>
+	    			           <p>
+							   
+								  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#buyBtn">
+								    购买课程
+								  </button>
+								  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contents">
+								    课程详情
+								  </button>
+							   </p>
 	    			         </div>
 	    			       </div>
 	    			     </div>`;
