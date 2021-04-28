@@ -30,55 +30,143 @@ $.each(course_list_div,function(index,value){
 });
 
 
-/*======================================【新手课程列表】==================================*/
+/*======================================【课程列表】==================================*/
+
+
+
 
 //获取新手课程列表【容器】
 var newke = $('.newke');
-//获取新手课程列表【数据】
-var newkeData;
+var newke1 = $('.newke1');
 
-//调取【新手课程】对应的【JSON数据】
-$.getJSON('data/newke.json',function(res,status,xhr){
-	newkeData = res;
+//执行新手课程函数
+keList(newke,'data/newke.json','data/newkeList.json');
+keList(newke1,'data/newke.json','data/newkeList.json');
+
+//封装课程函数
+function keList(oDom,dataUrl,listUrl){
 	
-	//通过数据循环列表
-	$.each(newkeData,function(index,value){
-	 
-	    //存储【新手课程】的【HTML布局代码】
-	    var str='';
-	    for(var i=0;i<newkeData.length;i++){
-	    	str += `<div class="col-sm-4 col-md-3">
-	    			       <div class="thumbnail">
-	    			         <div class="img_mian">
-	    			            <img class="img-responsive" src="${newkeData[i].url}" alt="...">
-	    			         </div>                  
-	    			         <div class="caption">
-	    			           <h3 class="title">${newkeData[i].title}</h3>
-	    			           <p>
-							   
-								  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#buyBtn">
-								    购买课程
-								  </button>
-								  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contents">
-								    课程详情
-								  </button>
-							   </p>
-	    			         </div>
-	    			       </div>
-	    			     </div>`;
-	    }
-	    //将遍历出来的代码，添加到容器中
-	    newke.html('<div class="row">' + str + '</div>');
-	
+	  //获取课程列表【数据】
+	  var newkeData;
+	  
+	  //调取【课程】对应的【JSON数据】
+	  $.getJSON(dataUrl,function(res,status,xhr){
+	  	newkeData = res;
+	  	
+	  	//通过数据循环列表
+	  	$.each(newkeData,function(index,value){
+	  	 
+	  	    //存储【课程】的【HTML布局代码】
+	  	    var str='';
+	  	    for(var i=0;i<newkeData.length;i++){
+	  	    	str += `<div class="col-sm-4 col-md-3">
+	  	    			       <div class="thumbnail">
+	  	    			         <div class="img_mian">
+	  	    			            <img class="img-responsive" src="${newkeData[i].url}" alt="...">
+	  	    			         </div>                  
+	  	    			         <div class="caption">
+	  	    			           <h3 class="title">${newkeData[i].title}</h3>
+	  	    			           <p>
+	  							   
+	  								  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#buyBtn">
+	  								    购买课程
+	  								  </button>
+	  								  <button type="button"  class="btn btn-primary kcxq" data-toggle="modal" data-target="#contents">
+	  								    课程详情
+	  								  </button>
+	  							   </p>
+	  	    			         </div>
+	  	    			       </div>
+	  	    			     </div>`;
+	  	    }
+	  	    //将遍历出来的代码，添加到容器中
+	  	    oDom.html('<div class="row">' + str + '</div>');
+			
+				  	
+	  	});
+		
+		
+		//点击按钮，【模态框】输出【不同课程介绍】内容
+		keTitle(oDom,listUrl);
+		
+		
 	
 	});
+}
+
+
+/******************【模态框】设定--开始********************/
+
+//获取【模态框】课程介绍【容器】
+var conTitle = $('#conTitle');
+//获取【模态框】课程列表【容器】
+var conList = $('#conList');
+
+//点击【课程详情】按钮，更改模态框内容
+function keTitle(oDom,listUrl){
+	
+
+	//获取【课程详情】按钮集合
+	var kcxq = oDom.find('.btn.btn-primary.kcxq');
+	//存储课程列表的数据
+	var listData;
+
+	//请求课程列表的数据
+	$.getJSON(listUrl,function(res,status,xhr){
+		//将获取的【课程列表数据】赋值给变量
+		listData = res;
+		console.log(listData);
+		
+		
+		//循环点击【课程详情】按钮，输出对应课程的【介绍】
+		$.each(kcxq,function(index,value){
+			$(this).click(function(){
+				//将【课程简介】显示出来
+				conTitle.html(listData[index].title);
+		
+				//将【课程列表数据】赋值给变量
+				var listNews = listData[index].contents;
+				//声明空字符串，放列表HTML
+				var strLi="";
+				//循环【课程列表数据】，遍历到列表【Li】中
+				$.each(listNews,function(index,value){
+                    //生成列表的HTML标签					
+					strLi += '<li class="list-group-item"><span>'+(index+1) + '</span>' + value + '</li>'
+										
+				});
+				//将【课程列表】显示出来 
+				 conList.html(strLi);
+				 
+				 
+			});
+		})
+		
+		
+		
+		
+	});
+
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+/*****************结束*********************/
+
+
+
+
+
 	
 	
 	//对【新手课程列表】做CSS特效样式
 	var thumbnail = $('.thumbnail');
 	var newsImg = $('.thumbnail .img_mian img');
-	
-	
 	
 	$.each(thumbnail,function(index,value){
 	
@@ -94,94 +182,74 @@ $.getJSON('data/newke.json',function(res,status,xhr){
 	
 	
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-});
-
-
-
-
-
-// function newke(data){
-// 	//设定存储【新手课程】布局代码
-// 	var str;
-// 	for(var i=0;i<data.length;i++){
-// 		str += `<div class="col-sm-4 col-md-3">
-// 				       <div class="thumbnail">
-// 				         <div class="img_mian">
-// 				            <img class="img-responsive" src="${data[i].url}" alt="...">
-// 				         </div>                  
-// 				         <div class="caption">
-// 				           <h3 class="title">${data[i].title}</h3>
-// 				           <p><a href="#" class="btn btn-primary" role="button">购买课程</a> <a href="#" class="btn btn-default" role="button">课程详情</a></p>
-// 				         </div>
-// 				       </div>
-// 				     </div>`;
-// 	}
-	
-// 	console.log(str);
-		
-// }
 
 
 
