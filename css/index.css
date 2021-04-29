@@ -22,11 +22,17 @@ a{
 ul{
 	list-style:none;
 }
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+	outline: none;
+	outline-offset: 0px;
+}
+    
 /**********************************模态框区域******************************************/
 #conList>li>span{
 	display:inline-block;
 	width:26px;
 }
+
 /**********************************头部区域******************************************/
 
 /*设定整体导航栏样式*/

@@ -1,26 +1,38 @@
 [
 	{
 	  "url":"images/page1/newCross/2.jpg",
-	  "title":"课程一"
+	  "title":"课程一",
+	  "price":199,
+	  "number":368
 	},
 	{
 	  "url":"images/page1/newCross/3.jpg",
-	  "title":"课程二"
+	  "title":"课程二",
+	  "price":399,
+	  "number":256
 	},
 	{
 	  "url":"images/page1/newCross/2.jpg",
-	  "title":"课程三"
+	  "title":"课程三",
+	  "price":269,
+	  "number":1688
 	},
 	{
 	  "url":"images/page1/newCross/3.jpg",
-	  "title":"课程四"
+	  "title":"课程四",
+	  "price":99,
+	  "number":2661
 	},
 	{
 	  "url":"images/page1/newCross/2.jpg",
-	  "title":"课程五"
+	  "title":"课程五",
+	  "price":199,
+	  "number":368
 	},
 	{
 	  "url":"images/page1/newCross/2.jpg",
-	  "title":"课程五"
+	  "title":"课程六",
+	  "price":168,
+	  "number":99
 	}
 ]

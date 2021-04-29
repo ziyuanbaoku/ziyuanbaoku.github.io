@@ -1,128 +1,107 @@
 [
 	{ 
-	  "title":"李炎恢是著名的Web培训专家--javascript-1",
+	  "text":"李炎恢是著名的Web培训专家--javascript-1",
       "contents" :[
-		      "第1章 javascript概述1",
-			  "第1章 javascript概述2",
-			  "第1章 javascript概述3",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述"
+		          {
+					  "title":"第1章 javascript概述1",
+					  "time":"12:36"
+				  },
+				  {
+					  "title":"第2章 javascript概述2",
+					  "time":"6:25"
+				  },
+				  {
+					  "title":"第3章 javascript概述3",
+					  "time":"16:25"
+				  }
 			  ]
     },
     {
-      "title":"李炎恢是著名的Web培训专家--html5-2",
+      "text":"李炎恢是著名的Web培训专家--html5-2",
       "contents" :[
-    	      "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述",
-    		  "第1章 HTML5概述"
+		  
+		       {
+					  "title":"第1章 HTML5概述1",
+					  "time":"12:36"
+		       },
+		       {
+					  "title":"第2章 HTML5概述2",
+					  "time":"6:25"
+		       },
+		       {
+					  "title":"第3章 HTML5概述3",
+					  "time":"16:25"
+		       },
+			   {
+					  "title":"第3章 HTML5概述4",
+					  "time":"36:25"
+			   }
     		  ]
     },
 	{
-	  "title":"李炎恢是著名的Web培训专家--javascript-3",
+	  "text":"李炎恢是著名的Web培训专家--javascript-3",
 	  "contents" :[
-		      "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述"
+		          {
+					  "title":"第1章 javascript概述1",
+					  "time":"12:36"
+				  },
+				  {
+					  "title":"第2章 javascript概述2",
+					  "time":"6:25"
+				  }
 			  ]
 	},
 	{
-	  "title":"李炎恢是著名的Web培训专家--html5-4",
+	  "text":"李炎恢是著名的Web培训专家--html5-4",
 	  "contents" :[
-		      "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述"
+		  
+		       {
+					  "title":"第1章 HTML5概述1",
+					  "time":"12:36"
+		       },
+		       {
+					  "title":"第2章 HTML5概述2",
+					  "time":"6:25"
+		       },
+		       {
+					  "title":"第3章 HTML5概述3",
+					  "time":"16:25"
+		       }
 			  ]
 	},
 	{
-	  "title":"李炎恢是著名的Web培训专家--javascript-5",
+	  "text":"李炎恢是著名的Web培训专家--javascript-5",
 	  "contents" :[
-		      "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述",
-			  "第1章 javascript概述"
+		          {
+					  "title":"第1章 javascript概述1",
+					  "time":"12:36"
+				  },
+				  {
+					  "title":"第2章 javascript概述2",
+					  "time":"6:25"
+				  },
+				  {
+					  "title":"第3章 javascript概述3",
+					  "time":"16:25"
+				  }
 			  ]
 	},
 	{
-	  "title":"李炎恢是著名的Web培训专家--html5-6",
+	  "text":"李炎恢是著名的Web培训专家--html5-6",
 	  "contents" :[
-		      "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述",
-			  "第1章 HTML5概述"
+		  
+		       {
+					  "title":"第1章 HTML5概述1",
+					  "time":"12:36"
+		       },
+		       {
+					  "title":"第2章 HTML5概述2",
+					  "time":"6:25"
+		       },
+		       {
+					  "title":"第3章 HTML5概述3",
+					  "time":"16:25"
+		       }
 			  ]
 	}
 

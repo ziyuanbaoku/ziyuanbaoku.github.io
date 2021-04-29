@@ -1,5 +1,10 @@
 $(function(){
 	
+	
+
+/*======================================【总课程列表】==================================*/
+	
+	
 var list_main = $('.navbar-fixed-bottom .navbar-collapse,.navbar-fixed-top .navbar-collapse');
 var list_ul = $('#navbar-collapse ul');
 var list_li =  $('#navbar-collapse li');
@@ -62,12 +67,15 @@ function keList(oDom,dataUrl,listUrl){
 	  	    	str += `<div class="col-sm-4 col-md-3">
 	  	    			       <div class="thumbnail">
 	  	    			         <div class="img_mian">
-	  	    			            <img class="img-responsive" src="${newkeData[i].url}" alt="...">
+	  	    			            <img class="img-responsive" src="${newkeData[i].url}" alt="">
 	  	    			         </div>                  
 	  	    			         <div class="caption">
 	  	    			           <h3 class="title">${newkeData[i].title}</h3>
-	  	    			           <p>
-	  							   
+								   <p style="font-size:14px">
+								      价格:<strong style="color:#dd706b;font-size:18px">${newkeData[i].price}</strong>￥
+									  <span style="float:right;margin-right:10px;color:#888;"><strong style="color:#dd706b;">${newkeData[i].number}</strong>人购买</span>
+								   </p>
+	  	    			           <p> 
 	  								  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#buyBtn">
 	  								    购买课程
 	  								  </button>
@@ -115,23 +123,31 @@ function keTitle(oDom,listUrl){
 	$.getJSON(listUrl,function(res,status,xhr){
 		//将获取的【课程列表数据】赋值给变量
 		listData = res;
-		console.log(listData);
+		
+		// console.log(listData);
 		
 		
 		//循环点击【课程详情】按钮，输出对应课程的【介绍】
 		$.each(kcxq,function(index,value){
 			$(this).click(function(){
 				//将【课程简介】显示出来
-				conTitle.html(listData[index].title);
+				conTitle.html(listData[index].text);
 		
 				//将【课程列表数据】赋值给变量
 				var listNews = listData[index].contents;
 				//声明空字符串，放列表HTML
 				var strLi="";
+				
+				
+				
+				
 				//循环【课程列表数据】，遍历到列表【Li】中
 				$.each(listNews,function(index,value){
+					
+					 console.log(value);
+					
                     //生成列表的HTML标签					
-					strLi += '<li class="list-group-item"><span>'+(index+1) + '</span>' + value + '</li>'
+					strLi += '<li class="list-group-item"><em style="float:right;padding:0px 8px;color:#999">'+ value.time +'</em><span>'+(index+1) + '</span>' + value.title + '</li>'
 										
 				});
 				//将【课程列表】显示出来 
