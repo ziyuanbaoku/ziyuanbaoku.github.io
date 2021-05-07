@@ -26,7 +26,10 @@ ul{
 	outline: none;
 	outline-offset: 0px;
 }
-    
+/* 模态框[课程介绍]文字颜色 */
+.text-muted{
+	color:#ce8236;
+}
 /**********************************模态框区域******************************************/
 #conList>li>span{
 	display:inline-block;

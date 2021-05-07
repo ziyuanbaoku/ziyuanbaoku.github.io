@@ -1,17 +1,101 @@
 [
 	{ 
-	  "text":"李炎恢是著名的Web培训专家--javascript-1",
+	  "text":"LESS是一种动态样式语言，它为 CSS 赋予了动态语言的特性，如变量、继承、运算、函数。LESS 既可以在客户端上运行 (支持 IE 6+、Webkit、Firefox)，也可以借助 Node.js 或者 Rhino 在服务端运行。多个知名框架如：Bootstrap、Vue、React都很好的支持Less，掌握好Less这门语言将大大提高CSS编码质量和CSS扩展功能，是开发中重要且不可缺少的技术之一。这个教程是众多Less教程中讲解最全面、最细致的教程，通过这门课程学习，会让你从小白快速成为精通Less的高手",
       "contents" :[
 		          {
-					  "title":"第1章 javascript概述1",
+					  "title":"第1章 LESS课程介绍",
 					  "time":"12:36"
 				  },
 				  {
-					  "title":"第2章 javascript概述2",
+					  "title":"第2章 初见less",
 					  "time":"6:25"
 				  },
 				  {
-					  "title":"第3章 javascript概述3",
+					  "title":"第3章 正确使用less",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第4章 变量(variables)",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第5章 混合(mixins)上",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第6章 混合(mixins)下",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第7章 嵌套规则(nested-rules)",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第8章 运算(operations)",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第9章 函数(functions)",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第10章 命名空间",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第11章 作用域",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第12章 引入(importing)",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第13章 关键字(important)",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第14章 条件表达式",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第15章 循环(loop)",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第16章 合并属性",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第17章 函数库 - 其他函数",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第18章 函数库 - 字符串函数和长度相关函数",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第19章 函数库 - 数学函数",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第20章 函数库 - 类型函数",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第21章 函数库 - 颜色值定义函数",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第22章 函数库 - 颜色值提取函数",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第23章 函数库 - 颜色值运算函数",
+					  "time":"16:25"
+				  },
+				  {
+					  "title":"第24章 函数库 - 颜色值混合函数",
 					  "time":"16:25"
 				  }
 			  ]
