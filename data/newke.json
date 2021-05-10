@@ -1,20 +1,20 @@
 [
 	{
 	  "url":"images/page1/newCross/less.jpg",
-	  "title":"快速精通Less",
-	  "price":199,
+	  "title":"从入门到精通Less",
+	  "price":168,
 	  "number":368
 	},
 	{
-	  "url":"images/page1/newCross/3.jpg",
-	  "title":"课程二",
-	  "price":399,
+	  "url":"images/page1/newCross/sass.jpg",
+	  "title":"从入门到精通sass",
+	  "price":199,
 	  "number":256
 	},
 	{
-	  "url":"images/page1/newCross/2.jpg",
-	  "title":"课程三",
-	  "price":269,
+	  "url":"images/page1/newCross/sublimeText.jpg",
+	  "title":"精通sublimeText",
+	  "price":50,
 	  "number":1688
 	},
 	{
