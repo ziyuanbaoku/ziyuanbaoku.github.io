@@ -224,7 +224,7 @@
 			  ]
 	},
 	{
-	  "text":"李炎恢是著名的Web培训专家--html5-4",
+	  "text":"从入门到精通Git",
 	  "contents" :[
 		  
 		       {
@@ -242,24 +242,20 @@
 			  ]
 	},
 	{
-	  "text":"李炎恢是著名的Web培训专家--javascript-5",
+	  "text":"从入门到精通Npm",
 	  "contents" :[
 		          {
-					  "title":"第1章 javascript概述1",
-					  "time":"12:36"
+					  "title":"第1章 NodeJS中的包管理",
+					  "time":"1:44:36"
 				  },
 				  {
-					  "title":"第2章 javascript概述2",
-					  "time":"6:25"
-				  },
-				  {
-					  "title":"第3章 javascript概述3",
-					  "time":"16:25"
+					  "title":"第2章 淘宝镜像安装",
+					  "time":"05:25"
 				  }
 			  ]
 	},
 	{
-	  "text":"李炎恢是著名的Web培训专家--html5-6",
+	  "text":"快速入门Webpack",
 	  "contents" :[
 		  
 		       {
@@ -274,6 +270,48 @@
 					  "title":"第3章 HTML5概述3",
 					  "time":"16:25"
 		       }
+			  ]
+	},
+	{
+	  "text":"快速入门NodeJS",
+	  "contents" :[
+		  
+		       {
+					  "title":"第1章 认识node.js",
+					  "time":"24:17"
+		       },
+		       {
+					  "title":"第2章 原生NodeJS基本使用",
+					  "time":"29:18"
+		       },
+		       {
+					  "title":"第3章 Http模块编写WEB服务",
+					  "time":"17:23"
+		       },
+			   {
+					  "title":"第4章 fs模块处理文件请求",
+					  "time":"18:17"
+			   },
+			   {
+					  "title":"第5章 Koa框架入门",
+					  "time":"24:52"
+			   },
+			   {
+					  "title":"第6章 koa接口和静态内容",
+					  "time":"1:15:16"
+			   },
+			   {
+					  "title":"第7章 MySQL数据库入门",
+					  "time":"44:31"
+			   },
+			   {
+					  "title":"第8章 ejs服务端渲染入门",
+					  "time":"44:51"
+			   },
+			   {
+					  "title":"第9章 课程总结",
+					  "time":"06:06"
+			   }
 			  ]
 	}
 

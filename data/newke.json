@@ -18,21 +18,27 @@
 	  "number":1688
 	},
 	{
-	  "url":"images/page1/newCross/3.jpg",
-	  "title":"课程四",
+	  "url":"images/page1/newCross/git.jpg",
+	  "title":"从入门到精通Git",
 	  "price":99,
-	  "number":2661
+	  "number":661
 	},
 	{
-	  "url":"images/page1/newCross/2.jpg",
-	  "title":"课程五",
+	  "url":"images/page1/newCross/npm.jpg",
+	  "title":"从入门到精通Npm",
 	  "price":199,
 	  "number":368
 	},
 	{
-	  "url":"images/page1/newCross/2.jpg",
-	  "title":"课程六",
-	  "price":168,
-	  "number":99
+	  "url":"images/page1/newCross/webpack.jpg",
+	  "title":"快速入门Webpack",
+	  "price":99,
+	  "number":699
+	},
+	{
+	  "url":"images/page1/newCross/node.jpg",
+	  "title":"快速入门NodeJS",
+	  "price":128,
+	  "number":965
 	}
 ]
