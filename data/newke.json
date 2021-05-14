@@ -36,9 +36,27 @@
 	  "number":699
 	},
 	{
-	  "url":"images/page1/newCross/node.jpg",
-	  "title":"快速入门NodeJS",
+	  "url":"images/page1/newCross/jquery.jpg",
+	  "title":"从入门到精通jquery",
 	  "price":128,
 	  "number":965
+	},
+	{
+	  "url":"images/page1/newCross/bootstrap3.jpg",
+	  "title":"快速精通bootstrap3",
+	  "price":88,
+	  "number":765
+	},
+	{
+	  "url":"images/page1/newCross/bootstrap4.jpg",
+	  "title":"快速精通bootstrap4",
+	  "price":99,
+	  "number":836
+	},
+	{
+	  "url":"images/page1/newCross/html5.jpg",
+	  "title":"从入门到精通html5",
+	  "price":99,
+	  "number":839
 	}
 ]
