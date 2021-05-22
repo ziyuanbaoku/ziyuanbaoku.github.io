@@ -42,11 +42,12 @@ $.each(course_list_div,function(index,value){
 
 //获取新手课程列表【容器】
 var newke = $('.newke');
-var newke1 = $('.newke1');
+var master = $('.master');
 
-//执行新手课程函数
+//执行【从入门到精通】系列课程课程函数
 keList(newke,'data/newke.json','data/newkeList.json');
-keList(newke1,'data/newke.json','data/newkeList.json');
+//执行【快速成为高手进阶】系列课程课程函数
+keList(master,'data/master.json','data/masterList.json');
 
 //封装课程函数
 function keList(oDom,dataUrl,listUrl){
