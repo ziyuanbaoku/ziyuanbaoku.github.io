@@ -4,99 +4,99 @@
       "contents" :[
 		          {
 					  "title":"第1章 LESS课程介绍",
-					  "time":"12:36"
+					  "time":"2:00"
 				  },
 				  {
 					  "title":"第2章 初见less",
-					  "time":"6:25"
+					  "time":"14:08"
 				  },
 				  {
 					  "title":"第3章 正确使用less",
-					  "time":"16:25"
+					  "time":"17:30"
 				  },
 				  {
 					  "title":"第4章 变量(variables)",
-					  "time":"16:25"
+					  "time":"19:54"
 				  },
 				  {
 					  "title":"第5章 混合(mixins)上",
-					  "time":"16:25"
+					  "time":"19:21"
 				  },
 				  {
 					  "title":"第6章 混合(mixins)下",
-					  "time":"16:25"
+					  "time":"25:45"
 				  },
 				  {
 					  "title":"第7章 嵌套规则(nested-rules)",
-					  "time":"16:25"
+					  "time":"13:53"
 				  },
 				  {
 					  "title":"第8章 运算(operations)",
-					  "time":"16:25"
+					  "time":"15:38"
 				  },
 				  {
 					  "title":"第9章 函数(functions)",
-					  "time":"16:25"
+					  "time":"5:15"
 				  },
 				  {
 					  "title":"第10章 命名空间",
-					  "time":"16:25"
+					  "time":"11:07"
 				  },
 				  {
 					  "title":"第11章 作用域",
-					  "time":"16:25"
+					  "time":"3:55"
 				  },
 				  {
 					  "title":"第12章 引入(importing)",
-					  "time":"16:25"
+					  "time":"17:08"
 				  },
 				  {
 					  "title":"第13章 关键字(important)",
-					  "time":"16:25"
+					  "time":"3:41"
 				  },
 				  {
 					  "title":"第14章 条件表达式",
-					  "time":"16:25"
+					  "time":"15:33"
 				  },
 				  {
 					  "title":"第15章 循环(loop)",
-					  "time":"16:25"
+					  "time":"9:49"
 				  },
 				  {
 					  "title":"第16章 合并属性",
-					  "time":"16:25"
+					  "time":"8:00"
 				  },
 				  {
 					  "title":"第17章 函数库 - 其他函数",
-					  "time":"16:25"
+					  "time":"20:43"
 				  },
 				  {
 					  "title":"第18章 函数库 - 字符串函数和长度相关函数",
-					  "time":"16:25"
+					  "time":"23:46"
 				  },
 				  {
 					  "title":"第19章 函数库 - 数学函数",
-					  "time":"16:25"
+					  "time":"24:45"
 				  },
 				  {
 					  "title":"第20章 函数库 - 类型函数",
-					  "time":"16:25"
+					  "time":"13:31"
 				  },
 				  {
 					  "title":"第21章 函数库 - 颜色值定义函数",
-					  "time":"16:25"
+					  "time":"12:36"
 				  },
 				  {
 					  "title":"第22章 函数库 - 颜色值提取函数",
-					  "time":"16:25"
+					  "time":"13:08"
 				  },
 				  {
 					  "title":"第23章 函数库 - 颜色值运算函数",
-					  "time":"16:25"
+					  "time":"27:33"
 				  },
 				  {
 					  "title":"第24章 函数库 - 颜色值混合函数",
-					  "time":"16:25"
+					  "time":"15:48"
 				  }
 			  ]
     },
@@ -106,75 +106,75 @@
 		  
 		       {
 					  "title":"第1章 Sass课程整体介绍",
-					  "time":"12:36"
+					  "time":"16:21"
 		       },
 		       {
 					  "title":"第2章 sass与compass(上)",
-					  "time":"6:25"
+					  "time":"13:57"
 		       },
 		       {
 					  "title":"第3章 sass与compass(下)",
-					  "time":"16:25"
+					  "time":"19:43"
 		       },
 			   {
 					  "title":"第4章 Sass、Less与Stylus",
-					  "time":"36:25"
+					  "time":"22:41"
 			   },
 			   {
 					  "title":"第5章 sass语法基础（命令行与注释）",
-					  "time":"12:36"
+					  "time":"31:35"
 			   },
 			   {
 					  "title":"第6章 sass语法（基础部分：变量与导入）",
-					  "time":"6:25"
+					  "time":"32:37"
 			   },
 			   {
 					  "title":"第7章 sass语法（继承与嵌套）",
-					  "time":"16:25"
+					  "time":"36:01"
 			   },
 			   {
 					  "title":"第8章 sass进阶（数据类型、变量运算、mixin）",
-					  "time":"36:25"
+					  "time":"32:59"
 			   },
 			   {
 					  "title":"第9章 sass进阶（函数与调试）",
-					  "time":"12:36"
+					  "time":"16:47"
 			   },
 			   {
 					  "title":"第10章 Sass高级（条件控制）",
-					  "time":"6:25"
+					  "time":"21:46"
 			   },
 			   {
 					  "title":"第11章 Sass官网（基础项目结构）",
-					  "time":"16:25"
+					  "time":"15:26"
 			   },
 			   {
 					  "title":"第12章 Sass官网（自动化构建）",
-					  "time":"36:25"
+					  "time":"28:45"
 			   },
 			   {
 					  "title":"第13章 Sass官网（网站首页布局）",
-					  "time":"12:36"
+					  "time":"26:06"
 			   },
 			   {
 					  "title":"第14章 Sass官网（网站首页一）",
-					  "time":"6:25"
+					  "time":"37:49"
 			   },
 			   {
 					  "title":"第15章 Sass官网（网站首页二）",
-					  "time":"16:25"
+					  "time":"42:13"
 			   },
 			   {
 					  "title":"第16章 Sass官网（内容页实现）",
-					  "time":"36:25"
+					  "time":"40:38"
 			   },
 			   {
 					  "title":"第17章 Sass官网（响应式布局）",
-					  "time":"12:36"
+					  "time":"23:28"
 			   },
 			   {
 					  "title":"第18章 项目总结",
-					  "time":"6:25"
+					  "time":"14:09"
 			   }
     		  ]
     },
@@ -183,43 +183,43 @@
 	  "contents" :[
 		          {
 					  "title":"第1章 Sublime Text3介绍",
-					  "time":"12:36"
+					  "time":"13:25"
 				  },
 				  {
 					  "title":"第2章 Sublime Text3的安装",
-					  "time":"6:25"
+					  "time":"7:07"
 				  },
 				  {
 					  "title":"第3章 Sublime Text3使用技巧",
-					  "time":"12:36"
+					  "time":"15:01"
 				  },
 				  {
 					  "title":"第4章 Sublime Text3 代码片段 snippet",
-					  "time":"6:25"
+					  "time":"11:37"
 				  },
 				  {
 					  "title":"第5章 Sublime Text3 查找替换 多窗口编辑",
-					  "time":"12:36"
+					  "time":"7:43"
 				  },
 				  {
 					  "title":"第6章 Sublime Text3 常用快捷键",
-					  "time":"6:25"
+					  "time":"13:39"
 				  },
 				  {
 					  "title":"第7章 Sublime Text3插件安装  Emmet插件使用",
-					  "time":"12:36"
+					  "time":"17:57"
 				  },
 				  {
 					  "title":"第8章 Sublime Text3使用Emmet提高编写CSS效率",
-					  "time":"6:25"
+					  "time":"13:59"
 				  },
 				  {
 					  "title":"第9章 Sublime Text3常用插件介绍1",
-					  "time":"12:36"
+					  "time":"17:37"
 				  },
 				  {
 					  "title":"第10章 Sublime Text3常用插件介绍2",
-					  "time":"6:25"
+					  "time":"4:12"
 				  }
 			  ]
 	},
@@ -228,17 +228,41 @@
 	  "contents" :[
 		  
 		       {
-					  "title":"第1章 HTML5概述1",
-					  "time":"12:36"
+					  "title":"第1章 使用Github（目的、基本你概念、注册账号）",
+					  "time":"29:51"
 		       },
 		       {
-					  "title":"第2章 HTML5概述2",
-					  "time":"6:25"
+					  "title":"第2章 使用Github（创建仓库、仓库主页说明）",
+					  "time":"15:22"
 		       },
 		       {
-					  "title":"第3章 HTML5概述3",
-					  "time":"16:25"
-		       }
+					  "title":"第3章 使用Github（仓库管理）",
+					  "time":"26:34"
+		       },
+			   {
+					  "title":"第4章 使用Github（Github Issues）",
+					  "time":"7:20"
+			   },
+			   {
+					  "title":"第5章 使用Github（基本概念实战操作）",
+					  "time":"25:44"
+			   },
+			   {
+					  "title":"第6章 安装Git",
+					  "time":"9:21"
+			   },
+			   {
+					  "title":"第7章 Git基本工作流程",
+					  "time":"6:39"
+			   },
+			   {
+					  "title":"第8章 Git初始化及仓库创建和操作",
+					  "time":"20:04"
+			   },
+			   {
+					  "title":"第9章 Git管理远程仓库",
+					  "time":"19:25"
+			   }
 			  ]
 	},
 	{
@@ -259,20 +283,128 @@
 	  "contents" :[
 		  
 		       {
-					  "title":"第1章 HTML5概述1",
-					  "time":"12:36"
+					  "title":"第1章 Webpack入门和安装",
+					  "time":"9:47"
 		       },
 		       {
-					  "title":"第2章 HTML5概述2",
-					  "time":"6:25"
+					  "title":"第2章 模块打包和配置",
+					  "time":"12:15"
 		       },
 		       {
-					  "title":"第3章 HTML5概述3",
-					  "time":"16:25"
+					  "title":"第3章 DevServer服务",
+					  "time":"13:24"
+		       },
+			   {
+					  "title":"第4章 Plugin部署Html插件",
+					  "time":"11:55"
+			   },
+			   {
+					  "title":"第5章 Loader打包CSS文件",
+					  "time":"12:01"
+			   },
+			   {
+					  "title":"第6章 Loader打包图片文件",
+					  "time":"15:31"
+			   },
+			   {
+					  "title":"第7章 分离CSS.分类打包",
+					  "time":"13:39"
+			   },
+			   {
+					  "title":"第8章 PostCss兼容性转换",
+					  "time":"13:24"
+			   },
+			   {
+					  "title":"第9章 Babel转换ES6",
+					  "time":"8:09"
+			   },
+			   {
+					  "title":"第10章 ESLint校验JS代码",
+					  "time":"7:10"
+			   },
+			   {
+					  "title":"第11章 多页面配置打包",
+					  "time":"7:14"
+		       },
+			   {
+					  "title":"第12章 压缩Html和Css代码",
+					  "time":"6:43"
+			   },
+			   {
+					  "title":"第13章 打包Ts和Scss",
+					  "time":"10:19"
+			   },
+			   {
+					  "title":"第14章 Resolve模块解析",
+					  "time":"6:52"
+			   },
+			   {
+					  "title":"第15章 Source-Map配置",
+					  "time":"8:17"
+			   },
+			   {
+					  "title":"第16章 watch监听和clean清理",
+					  "time":"10:44"
+			   },
+			   {
+					  "title":"第17章 HMR热替换",
+					  "time":"11:09"
+			   },
+			   {
+					  "title":"第18章 Axios跨域请求",
+					  "time":"6:38"
+			   },
+			   {
+					  "title":"第19章 环境分离设置",
+					  "time":"10:29"
+			   },
+			   {
+					  "title":"第20章 打包优化和dist服务",
+					  "time":"7:42"
+			   }
+			  ]
+	},
+	{
+	  "text":"从入门到精通jquery",
+	  "contents" :[
+		  
+		       {
+					  "title":"第1章 从入门到精通jquery",
+					  "time":"24:17"
 		       }
 			  ]
 	},
 	{
+	  "text":"快速精通bootstrap3",
+	  "contents" :[
+		  
+		       {
+					  "title":"第1章 快速精通bootstrap3",
+					  "time":"24:17"
+		       }
+			  ]
+	 },
+	 {
+	   "text":"快速精通bootstrap4",
+	   "contents" :[
+	 	  
+	 	       {
+	 				  "title":"第1章 快速精通bootstrap4",
+	 				  "time":"24:17"
+	 	       }
+	 		  ]
+	  },
+	  {
+	    "text":"从入门到精通html5",
+	    "contents" :[
+	  	  
+	  	       {
+	  				  "title":"第1章 从入门到精通html5",
+	  				  "time":"24:17"
+	  	       }
+	  		  ]
+	   },
+	  {
 	  "text":"快速入门NodeJS",
 	  "contents" :[
 		  
@@ -313,7 +445,7 @@
 					  "time":"06:06"
 			   }
 			  ]
-	}
+	  }
 
 
 ]

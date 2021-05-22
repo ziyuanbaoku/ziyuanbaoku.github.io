@@ -58,5 +58,11 @@
 	  "title":"从入门到精通html5",
 	  "price":99,
 	  "number":839
+	},
+	{
+	  "url":"images/page1/newCross/node.jpg",
+	  "title":"快速入门NodeJS",
+	  "price":99,
+	  "number":639
 	}
 ]
