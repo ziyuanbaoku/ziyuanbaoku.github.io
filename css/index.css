@@ -296,11 +296,25 @@ ul{
 		font-size:14px;
 		color:#fff;
 	}
-   /*新手课程列表*/
-
-
+   /*从【入门】到【精通】课程列表*/
+    .newke{
+		
+	}
+   /*【快速成为高手】课程列表*/
+	.newCross{
+		   
+	}
 
 
 }
-
-
+/*【iPad端】设定*/
+@media (min-width:768px) and (max-width:1024px){
+	/*从【入门】到【精通】课程列表*/
+   .newke h3.title{
+   	  font-size:22px;
+   }
+   /*【快速成为高手】课程列表*/
+   .newCross h3.title{
+	   font-size:22px;
+   }
+}
