@@ -44,14 +44,14 @@
 	{
 	  "url":"images/page1/newCross/bootstrap3.jpg",
 	  "title":"快速精通bootstrap3",
-	  "price":88,
+	  "price":99,
 	  "number":765
 	},
 	{
-	  "url":"images/page1/newCross/bootstrap4.jpg",
-	  "title":"快速精通bootstrap4",
+	  "url":"images/page1/newCross/Javascript.jpg",
+	  "title":"快速精通Javascript",
 	  "price":99,
-	  "number":836
+	  "number":1236
 	},
 	{
 	  "url":"images/page1/newCross/html5.jpg",
