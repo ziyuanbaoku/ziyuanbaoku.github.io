@@ -2,13 +2,13 @@
 	{
 	  "url":"images/page1/newCross/less.jpg",
 	  "title":"从入门到精通Less",
-	  "price":168,
+	  "price":98,
 	  "number":368
 	},
 	{
 	  "url":"images/page1/newCross/sass.jpg",
 	  "title":"从入门到精通sass",
-	  "price":199,
+	  "price":128,
 	  "number":256
 	},
 	{
@@ -20,19 +20,19 @@
 	{
 	  "url":"images/page1/newCross/git.jpg",
 	  "title":"从入门到精通Git",
-	  "price":99,
+	  "price":88,
 	  "number":661
 	},
 	{
 	  "url":"images/page1/newCross/npm.jpg",
 	  "title":"从入门到精通Npm",
-	  "price":199,
+	  "price":50,
 	  "number":368
 	},
 	{
 	  "url":"images/page1/newCross/webpack.jpg",
 	  "title":"快速入门Webpack",
-	  "price":99,
+	  "price":98,
 	  "number":699
 	},
 	{
@@ -44,19 +44,19 @@
 	{
 	  "url":"images/page1/newCross/bootstrap3.jpg",
 	  "title":"快速精通bootstrap3",
-	  "price":99,
+	  "price":98,
 	  "number":765
 	},
 	{
-	  "url":"images/page1/newCross/Javascript.jpg",
+	  "url":"images/page1/newCross/javascript.jpg",
 	  "title":"快速精通Javascript",
-	  "price":99,
+	  "price":98,
 	  "number":1236
 	},
 	{
 	  "url":"images/page1/newCross/html5.jpg",
 	  "title":"从入门到精通html5",
-	  "price":99,
+	  "price":98,
 	  "number":839
 	},
 	{
