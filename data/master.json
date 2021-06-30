@@ -10,5 +10,11 @@
 	  "title":"微信小程序精品课程",
 	  "price":198,
 	  "number":968
+	},
+	{
+	  "url":"images/page1/master/es6.jpg",
+	  "title":"全面精通ES6",
+	  "price":128,
+	  "number":2036
 	}
 ]
