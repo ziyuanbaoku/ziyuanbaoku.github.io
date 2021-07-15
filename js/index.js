@@ -196,10 +196,11 @@ function keTitle(oDom,listUrl){
 		});
 	});
 	
+/*****************结束*********************/	
 	
-	
-	
+//【课程更新】模态框显示
 
+$('#upLoadBtn').trigger('click');
 
 
 
