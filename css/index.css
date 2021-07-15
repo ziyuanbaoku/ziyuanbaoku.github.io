@@ -30,6 +30,21 @@ ul{
 .text-muted{
 	color:#ce8236;
 }
+
+/*【课程更新通知】模态框背景颜色*/
+#upLoad .modal-header{
+	background:#dd706b;
+}
+#upLoad .modal-header span{
+	position:relative;
+	top:-3px;
+}
+#upLoad .modal-header h4{
+	color:#fff;
+}
+#upLoad .modal-title{
+	line-height: 0.428571;
+}
 /**********************************模态框区域******************************************/
 #conList>li>span{
 	display:inline-block;
