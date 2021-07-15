@@ -6,6 +6,12 @@
 	  "number":1368
 	},
 	{
+	  "url":"images/page1/master/javascript.jpg",
+	  "title":"Javascript特效",
+	  "price":99,
+	  "number":1213
+	},
+	{
 	  "url":"images/page1/master/weixin.jpg",
 	  "title":"精通微信小程序",
 	  "price":198,
