@@ -145,10 +145,11 @@ function keTitle(oDom,listUrl){
 				//循环【课程列表数据】，遍历到列表【Li】中
 				$.each(listNews,function(index,value){
 					
-					 console.log(index,value);
+					 // console.log(index,value);
 					
 					if(index==0){
-                       strLi += '<li class="list-group-item"><em style="float:right;padding:0px 8px;color:#999">'+ value.time +'</em><span>'+(index+1) + '</span><a target="blank" href="'+ value.url +'">' + value.title + '</a></li>'
+                       strLi += '<li class="list-group-item"><em style="float:right;padding:0px 8px;color:#999">'+ value.time +           
+                       '</em><span>'+(index+1) + '</span><a target="blank" href="'+ value.url +'">' + value.title + '</a></li><div class="alert alert-warning" style="margin-bottom:0"><button type="button" class="close" data-dismiss="alert"><span>&times;</span></button><strong>百度网盘链接：</strong> '+ value.url +'<br /><strong>验证码：</strong>'+ value.yzm +'</div>'
 					} else {
 					   //生成列表的HTML标签					
 					   strLi += '<li class="list-group-item"><em style="float:right;padding:0px 8px;color:#999">'+ value.time +'</em><span>'+(index+1) + '</span>' + value.title + '</li>'
