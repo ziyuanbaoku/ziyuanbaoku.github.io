@@ -76,21 +76,13 @@
 <!--微信LOGO模态框-->
 <div class="modal fade" id="buyBtn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
-    <div class="modal-content">
+    <div class="modal-content" id="buyKe">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel">购买课程流程</h4>
       </div>
-      <div class="modal-body">
-        
-		<ul class="list-group" id="buyList">		 		  
-			  <li class="list-group-item">1，扫二维码，加客服为好友。</li>
-			  <li class="list-group-item">2，联系客服人员，并告诉购买课程或电子产品名称，并按价格微信转账付款</li>
-			  <li class="list-group-item">3，付款后，客服人员将为您提供课程或电子产品百度网盘下载地址</li>
-			  <li class="list-group-item">4，请自行下载获取相应课程或电子产品</li>
-			  <li class="list-group-item"><strong style="color:#dd706b">特别声明：</strong>本产品属于视频类电子产品。质量绝对有保障。下载时如遇到文件损坏，无法播放。请及时联系客服人员给与更换。电子产品一旦售出将不予退货</li>	
-			  <li class="list-group-item"><img src="images/weixin.jpg" class="img-responsive center-block" style="max-width:60%"></li>
-		</ul>
+      <div class="modal-body" id="buy">
+          <!--购买课程---模态框显示微信购课内容 -->		
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
@@ -101,7 +93,7 @@
 
 <!--课程更新提示模态框---[通过将按钮隐藏，初始化时tigger()模拟点击按钮，显示提示框]-->
 <button type="button" style="display:none" id="upLoadBtn" class="btn" data-toggle="modal" data-target="#upLoad">
-  课程更新提示
+  <!-- 课程更新提示 -->
 </button>
 
 <!-- Modal -->
@@ -112,8 +104,8 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title text-center">特别公告</h4>
       </div>
-      <div class="modal-body">
-        特别公告：为了方便资源查找，提高用户体验，本网站对原有的教程、资源进行重新归类整理和内容更新，更多好的教程、资源也正在不断更新添加中。已上线的课程可以正常购买，欢迎新老朋友惠顾！本网站汇集了众多互联网知名技术大咖的作品，愿“资源宝库”网站成为你工作中的良师益友，技术充电提高的知识殿堂。
+      <div class="modal-body" id="notice">
+          <!-- 填充【课程更新】的通告信息---在【notice.json】里 -->
       </div>
     </div>
   </div>
