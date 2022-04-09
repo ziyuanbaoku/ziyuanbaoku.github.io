@@ -15,7 +15,7 @@
 	  "url":"images/page1/newCross/sublimeText.jpg",
 	  "title":"精通sublimeText",
 	  "price":0,
-	  "number":1688
+	  "number":6681
 	},
 	{
 	  "url":"images/page1/newCross/git.jpg",
@@ -32,7 +32,7 @@
 	{
 	  "url":"images/page1/newCross/webpack.jpg",
 	  "title":"快速入门Webpack",
-	  "price":30,
+	  "price":68,
 	  "number":2699
 	},
 	{
@@ -67,8 +67,8 @@
 	},
 	{
 	  "url":"images/page1/newCross/flexBox.jpg",
-	  "title":"从入门到精通FlexBox",
-	  "price":30,
-	  "number":1259
+	  "title":"精通弹性盒FlexBox",
+	  "price":0,
+	  "number":6259
 	}
 ]
