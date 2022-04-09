@@ -10,30 +10,6 @@ var list_ul = $('#navbar-collapse ul');
 var list_li =  $('#navbar-collapse li');
 
 
-/*======================================【总课程列表】==================================*/
-
- var course_list = $('#course_list');
-
-
-//修订【页头】默认样式的值  【 margin：40px 0  20px；】-----JS挺高CSS设定优先级
- course_list.css('margin',0);
-
-
-//鼠标滑过列表背景变化效果
-var course_list_div = $('.course_list_content>div');
-
-$.each(course_list_div,function(index,value){
-
-    $(this).hover(function(){
-
-         $(this).css('background','#dd706b').siblings().css('background','#000');
-
-    },function(){
-        course_list_div.css('background','#000');
-    });
-
-});
-
 
 /*======================================【课程列表】==================================*/
 
@@ -206,9 +182,32 @@ function keTitle(oDom,listUrl){
 	
 /*****************结束*********************/	
 	
-//【课程更新】模态框显示
+/*【课程更新公告】内容模态框显示*/
 
-$('#upLoadBtn').trigger('click');
+//获取装载【课程更新公告】的容器 id="notice"
+var noticeText = $('#notice')
+//通过ajax请求【更新课程】的通告数据--[notice.json]
+$.getJSON('data/notice.json',function(res,status,xhr){
+
+    noticeText.html(res[0].text);
+
+    setTimeout(function(){
+         $('#upLoadBtn').trigger('click');
+    },100)
+
+   
+});
+
+/*【微信购买课程】内容模态框显示*/
+
+//获取装载【课程更新公告】的容器 id="buy"
+var buyText = $('#buy')
+//通过ajax请求【更新课程】的通告数据--[notice.json]
+$.getJSON('data/buy.json',function(res,status,xhr){
+    buyText.html(res[0].text);   
+});
+
+
 
 
 
