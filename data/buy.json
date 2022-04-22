@@ -1,8 +1,1 @@
-[
-	{ 
-	  "text":"<ul class='list-group' id='buyList'><li class='list-group-item'>1，扫二维码，加客服为好友。</li><li class='list-group-item'>2，联系客服人员，并告诉购买课程或电子产品名称，并按价格微信转账付款</li><li class='list-group-item'>3，付款后，客服人员将为您提供课程或电子产品百度网盘下载地址</li><li class='list-group-item'>4，请自行下载获取相应课程或电子产品</li><li class='list-group-item'><strong style='color:#dd706b'>特别声明：</strong>本产品属于视频类电子产品。质量绝对有保障。下载时如遇到文件损坏，无法播放。请及时联系客服人员给与更换。电子产品一旦售出将不予退货</li><li class='list-group-item'><img src='images/weixin.jpg' class='img-responsive center-block' style='max-width:60%'></li></ul>"
-    }
-]
-
-
-
+[{"text":"<ul class='list-group' id='buyList'><li class='list-group-item'>1\uFF0C\u626B\u4E8C\u7EF4\u7801\uFF0C\u52A0\u5BA2\u670D\u4E3A\u597D\u53CB\u3002</li><li class='list-group-item'>2\uFF0C\u8054\u7CFB\u5BA2\u670D\u4EBA\u5458\uFF0C\u5E76\u544A\u8BC9\u8D2D\u4E70\u8BFE\u7A0B\u6216\u7535\u5B50\u4EA7\u54C1\u540D\u79F0\uFF0C\u5E76\u6309\u4EF7\u683C\u5FAE\u4FE1\u8F6C\u8D26\u4ED8\u6B3E</li><li class='list-group-item'>3\uFF0C\u4ED8\u6B3E\u540E\uFF0C\u5BA2\u670D\u4EBA\u5458\u5C06\u4E3A\u60A8\u63D0\u4F9B\u8BFE\u7A0B\u6216\u7535\u5B50\u4EA7\u54C1\u767E\u5EA6\u7F51\u76D8\u4E0B\u8F7D\u5730\u5740</li><li class='list-group-item'>4\uFF0C\u8BF7\u81EA\u884C\u4E0B\u8F7D\u83B7\u53D6\u76F8\u5E94\u8BFE\u7A0B\u6216\u7535\u5B50\u4EA7\u54C1</li><li class='list-group-item'><strong style='color:%23dd706b'>\u7279\u522B\u58F0\u660E\uFF1A</strong>\u672C\u4EA7\u54C1\u5C5E\u4E8E\u89C6\u9891\u7C7B\u7535\u5B50\u4EA7\u54C1\u3002\u8D28\u91CF\u7EDD\u5BF9\u6709\u4FDD\u969C\u3002\u4E0B\u8F7D\u65F6\u5982\u9047\u5230\u6587\u4EF6\u635F\u574F\uFF0C\u65E0\u6CD5\u64AD\u653E\u3002\u8BF7\u53CA\u65F6\u8054\u7CFB\u5BA2\u670D\u4EBA\u5458\u7ED9\u4E0E\u66F4\u6362\u3002\u7535\u5B50\u4EA7\u54C1\u4E00\u65E6\u552E\u51FA\u5C06\u4E0D\u4E88\u9000\u8D27</li><li class='list-group-item'><img src='images/weixin.jpg' class='img-responsive center-block' style='max-width:60%'></li></ul>"}]
